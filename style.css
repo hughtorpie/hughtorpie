@@ -17,6 +17,36 @@
 }
 
 body {
-    background-color: #181a1b;
+    background-color: #161f29;
     color: #e8e6e3;
+    margin: 0;
+    padding: 0;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    max-width: 76ch;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-text {
+    text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  position: relative;
+  padding-left: 2ch;
+}
+
+ul li::before {
+  content: "- ";
+  position: absolute;
+  left: 0;
 }
